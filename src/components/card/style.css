@@ -1,0 +1,44 @@
+
+.card{
+    width: 65%;
+    background: #ce7b7ba8;
+    position: relative;
+    margin: 20px;
+    border-radius: 5%;
+    overflow: hidden;
+    transition: 0.3s all linear;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .card__body{
+    background-size: cover;
+}
+
+.card .card__body img{
+    width: 100%;
+}
+
+.card .card__footer{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    align-items: center;
+}
+.card .card__footer .title{
+    font-size: 2rem;
+    padding: 20px;
+}
+.card .card__footer .price{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    background-color: brown;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
